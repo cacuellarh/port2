@@ -1,0 +1,37 @@
+.li-menu {
+    @apply border-r border-b-2 border-b-transparent border-text_color  border-dashed hover:border-solid hover:border-b w-40 h-10 
+     hover:border-b-secondary hover:border-text_color  hover:cursor-pointer
+}
+.a_menu
+{
+    @apply w-full h-full flex items-center justify-center
+}
+.mobile_menu
+{
+    @apply py-3 hover:cursor-pointer hover:border-r-4 border-secondary px-5 
+}
+
+.mobile_menu:hover a
+{
+    @apply text-secondary
+}
+
+.active_li
+{
+    @apply border-b border-b-secondary border-solid
+}
+
+.active_li a
+{
+    @apply text-secondary
+}
+
+.active_li_mobile
+{
+    @apply border-r-4 border-secondary
+}
+
+.active_li_mobile a
+{
+    @apply text-secondary
+}

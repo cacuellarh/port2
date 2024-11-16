@@ -1,0 +1,36 @@
+.container_skill
+{
+    @apply w-full lg:w-72 p-5 h-72 bg-primary_ligth flex flex-col justify-around md:justify-end md:gap-y-7 lg:gap-2 shadow-xl
+}
+
+.p_skill
+{
+    @apply h-40 text-sm
+}
+
+
+.btn_project
+{
+    @apply bg-primary_ligth border-2 border-secondary px-3 py-2 rounded-2xl flex gap-2
+     hover:border-cyan-300 hover:scale-105 transition-all duration-200 ease-in hover:cursor-pointer
+}
+
+.wrapper_project_inf
+{
+    @apply flex flex-col gap-y-5 lg:gap-0 lg:flex-row w-full justify-between
+}
+
+.wrapper_info
+{
+    @apply lg:w-[50%] flex flex-col gap-y-4 md:gap-y-5 lg:gap-3 items-start;
+}
+
+.btn_project:hover h5
+{
+    @apply hover:text-cyan-300
+}
+
+.p_about
+{
+    @apply max-w-[40rem];
+}

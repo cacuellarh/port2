@@ -1,0 +1,27 @@
+<div class="relative">
+    <div class="fixed left-0 top-0  w-full px-5 bg-primary_dark md:bg-primary z-50 ">
+        <nav class="flex justify-center w-full">
+    
+            <div class="flex  py-5 md:hidden w-full">        
+                <a class="text-white hidden md:block">CC#</a>
+                <button (click)="OpenMenu(menu)"><img src="assets/icons/menu.png" class="w-9" alt=""></button>
+            </div>
+            <ul class="hidden md:flex text-text_color">
+               <li class="li-menu"><a class="link_menu ">CC#</a></li> 
+               <li class="li-menu" [class.active_li]="activeIndex === 1" (click)="Active(1)"><a class="a_menu" href="#presentation">Inicio</a></li> 
+               <li class="li-menu"[class.active_li]="activeIndex === 2" (click)="Active(2)" ><a class="a_menu" href="#skills">Skill-Set</a></li> 
+               <li class="li-menu" [class.active_li]="activeIndex === 3" (click)="Active(3)"><a class="a_menu" href="#projects">Proyectos</a></li>
+               <li class="li-menu" [class.active_li]="activeIndex === 4" (click)="Active(4)"><a class="a_menu" href="#about_me">Acerca de mi</a></li>  
+            </ul>
+        </nav>
+    </div>
+    <div #menu class="md:hidden fixed left-0 top-[-10rem] w-full bg-primary_dark transition-all duration-200 ease-in">
+        <ul class="">
+            <li class="mobile_menu" [class.active_li_mobile]="activeIndex === 1" (click)="Active(1)"><a href="#presentation" class="text-white">Inicio</a></li> 
+            <li class="mobile_menu" [class.active_li_mobile]="activeIndex === 2" (click)="Active(2)"><a href="#skills" class="text-white">Skill-Set</a></li> 
+            <li class="mobile_menu" [class.active_li_mobile]="activeIndex === 3" (click)="Active(3)"><a href="#projects" class="text-white">Proyectos</a></li> 
+            <li class="mobile_menu" [class.active_li_mobile]="activeIndex === 4" (click)="Active(4)"><a href="#about_me" class="text-white">Acerca de mi</a></li> 
+        </ul>
+    </div>
+</div>
+
