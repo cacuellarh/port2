@@ -1,0 +1,14 @@
+<svg width="56" height="83" viewBox="0 0 56 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="24.5" y="55.5" width="15" height="5" fill="#07F9A2" stroke="#05142B"/>
+<path d="M8.8 23.192H15.328L40.48 67.544V23.192H46.816H47.776V23.864C47.392 24.248 47.136 24.664 47.008 25.112C46.944 25.56 46.912 26.328 46.912 27.416V83H41.632L15.232 35.96V83H8.8V23.192Z" fill="white"/>
+<mask id="path-3-inside-1_120_19" fill="white">
+<path d="M0 55H25V61H0V55Z"/>
+</mask>
+<path d="M0 55H25V61H0V55Z" fill="#07F9A2"/>
+<path d="M0 55V54H-1V55H0ZM0 61H-1V62H0V61ZM0 56H25V54H0V56ZM25 60H0V62H25V60ZM1 61V55H-1V61H1Z" fill="black" mask="url(#path-3-inside-1_120_19)"/>
+<mask id="path-5-inside-2_120_19" fill="white">
+<path d="M39 55H56V61H39V55Z"/>
+</mask>
+<path d="M39 55H56V61H39V55Z" fill="#07F9A2"/>
+<path d="M56 55H57V54H56V55ZM56 61V62H57V61H56ZM39 56H56V54H39V56ZM55 55V61H57V55H55ZM56 60H39V62H56V60Z" fill="#05142B" mask="url(#path-5-inside-2_120_19)"/>
+</svg>
